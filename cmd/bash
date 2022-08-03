@@ -1,0 +1,7 @@
+Program Id: D9fZ1TN8r5Yyby7wb8BcpCG5QEK21mJ116HrkjPp9BCQ
+
+solana airdrop 1 A3dbPdCfYvWX76x2sjoURmNxUeTTeEbZwQUPC3RLMPYs --url https://api.devnet.solana.com
+solana confirm -v <TRANSACTION_SIGNATURE> 
+solana balance A3dbPdCfYvWX76x2sjoURmNxUeTTeEbZwQUPC3RLMPYs --url https://api.devnet.solana.com
+
+solana logs | grep "D9fZ1TN8r5Yyby7wb8BcpCG5QEK21mJ116HrkjPp9BCQ invoke" -A 25    
